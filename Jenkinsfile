@@ -6,9 +6,9 @@ pipeline {
                 build job: 'build-web-application'
             }
         }
-        stage('Deploy to Staging Environment'){
+        stage('Deploy Application'){
             steps{
-                build job: 'Deploy-Application-Staging-Environment'
+                build job: 'Deploy-Application'
             }            
         
         
